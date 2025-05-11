@@ -77,13 +77,12 @@ export const groupByCategory = (
 };
 
 const title = 'Skills';
-
 const items = [
+	// Programming languages
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description:'TODO',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -91,17 +90,33 @@ const items = [
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'TODO',
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'py',
+		color: 'blue',
+		description: 'TODO',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'java',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
+	}),
+	
+	// Markup Styles
+	defineSkill({
 		slug: 'css',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'TODO',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -109,30 +124,21 @@ const items = [
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 'TODO',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
+		slug: 'tailwind',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Tailwind,
+		name: 'Tailwind',
 		category: 'markup-style'
 	}),
-	defineSkill({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.ReactJs,
-		name: 'React Js',
-		category: 'library'
-	}),
+
+	// Libraries
 	defineSkill({
 		slug: 'svelte',
 		color: 'orange',
@@ -140,7 +146,143 @@ const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
-	})
+	}),
+	defineSkill({
+		slug: 'fastapi',
+		color: 'green',
+		description: 'TODO',
+		logo: Assets.FastApi,
+		name: 'FastApi',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'django',
+		color: 'green',
+		description: 'TODO',
+		logo: Assets.Django,
+		name: 'Django',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'flask',
+		color: 'black',
+		description: 'TODO',
+		logo: Assets.Flask,
+		name: 'Flask',
+		category: 'library'
+	}),
+
+	// Frameworks
+	defineSkill({
+		slug: 'ollama',
+		color: 'black',
+		description: 'TODO',
+		logo: Assets.Ollama,
+		name: 'Ollama',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'langchain',
+		color: 'black',
+		description: 'TODO',
+		logo: Assets.Langchain,
+		name: 'LangChain',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'haystack',
+		color: 'black',
+		description: 'TODO',
+		logo: Assets.Haystack,
+		name: 'Haystack',
+		category: 'framework'
+	}),
+
+	// Databases
+	defineSkill({
+		slug: 'postgresql',
+		color: 'blue',
+		description: 'TODO',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'neo4j',
+		color: 'blue',
+		description: 'TODO',
+		logo: Assets.Neo4j,
+		name: 'Neo4J',
+		category: 'db'
+	}),
+
+	// Devtools 
+	defineSkill({
+		slug: 'jupyter',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Jupyter,
+		name: 'Jupyter Notebooks',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'ant',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Ant,
+		name: 'Ant',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'maven',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Maven,
+		name: 'Maven',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'uml',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.UML,
+		name: 'UML',
+		category: 'devtools'
+	}),
+
+	// Languages
+	defineSkill({
+		slug: 'en',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.English,
+		name: 'English',
+		category: 'lang'
+	}),
+	defineSkill({
+		slug: 'es',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Spanish,
+		name: 'Spanish',
+		category: 'lang'
+	}),
+	defineSkill({
+		slug: 'jp',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Japanese,
+		name: 'Japanese',
+		category: 'lang'
+	}),
+	defineSkill({
+		slug: 'de',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.German,
+		name: 'German',
+		category: 'lang'
+	}),
 ] as const;
 
 const SkillsData = {

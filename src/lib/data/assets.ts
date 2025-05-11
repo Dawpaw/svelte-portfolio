@@ -13,7 +13,7 @@ const Assets = {
 	Cpp: asset('cpp.svg'),
 	Celery: asset('celery.svg'),
 	Django: asset('django.svg'),
-	FastApi: asset('fastapi'),
+	FastApi: asset('fastapi.svg'),
 	Flask: asset('flask.svg'),
 	Go: asset('go.svg'),
 	Kafka: asset('kafka.svg'),
@@ -73,6 +73,19 @@ const Assets = {
 
 	TUClausthal: asset('tuclaushtal.png'),
 	SIT: asset('sit.png'),
+
+	English: asset('en.svg'),
+	Spanish: asset('es.svg'),
+	Japanese: asset('jp.svg'),
+	German: asset('de.svg'),
+
+	Ant: asset('apache_ant.svg'),
+	Maven: asset('apache_maven.svg'),
+	UML: asset('uml.svg'),
+	Jupyter: asset('jupyter.svg'),
+	Langchain: asset('langchain.svg'),
+	Haystack: asset('haystack.png'),
+	Ollama: asset('ollama.svg'),
 
 };
 
