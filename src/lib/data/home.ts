@@ -11,11 +11,10 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Computer Science bachelor, finishing my masters. \nStarted programming as a hobby and ended up making it my degree.\n I like studying anything that catches my attention. Latetly I\'m mostly interested in website development, cybersecurity, databases, artificial intelligence and knowledge graphs. ',
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
+		{ label: 'GitHub', href: 'https://github.com/Dawpaw', icon: 'i-carbon-logo-github' },
 		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
 		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
 	]
 };
