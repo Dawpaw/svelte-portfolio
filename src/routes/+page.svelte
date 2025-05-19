@@ -7,6 +7,7 @@
 	import CarouselPrevious from '$lib/components/ui/carousel/carousel-previous.svelte';
 	import Carousel from '$lib/components/ui/carousel/carousel.svelte';
 	import Icon from '$lib/components/ui/icon/icon.svelte';
+	import Ascii from '$lib/components/ui/ascii/Ascii.svelte';
 	import ResponsiveContainer from '$lib/components/ui/responsive-container/responsive-container.svelte';
 	import { Tooltip, TooltipContent, TooltipTrigger } from '$lib/components/ui/tooltip';
 	import H1 from '$lib/components/ui/typography/h1.svelte';
@@ -16,6 +17,7 @@
 	import { mode } from 'mode-watcher';
 	import { type CarouselAPI } from '$lib/components/ui/carousel/context.js';
 	import { onMount } from 'svelte';
+	import { asciiArt } from '$lib/data/ascii';
 
 	let api: CarouselAPI;
 
@@ -30,11 +32,12 @@
 
 <Title title={HomeData.title} />
 <ResponsiveContainer className="flex flex-col justify-center flex-1">
-	<div
-		class="flex flex-1 flex-col items-center justify-center gap-8 px-14 md:flex-row md:justify-between"
-	>
+	<div class="flex flex-1 flex-col items-center justify-center gap-8 px-14 md:flex-row md:justify-between">
+		<div class="hidden md:block md:w-1/6 flex-shrink-0">
+			<Ascii art={HomeData.asciiArt.low} />
+		</div>
 		<div
-			class="flex flex-col items-center justify-center gap-4 text-center md:items-start md:text-left"
+			class="flex flex-col items-center justify-center gap-4 text-center md:items-start md:text-left w-full md:w-1/2"
 		>
 			<H1>{HomeData.hero.title}</H1>
 			<Muted>{HomeData.hero.description}</Muted>
@@ -53,7 +56,7 @@
 				{/each}
 			</div>
 		</div>
-		<div>
+		<div class="md:w-1/3">
 			<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
