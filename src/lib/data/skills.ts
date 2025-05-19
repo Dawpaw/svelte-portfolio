@@ -140,14 +140,6 @@ const items = [
 
 	// Libraries
 	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
-		description: svelteMd,
-		logo: Assets.Svelte,
-		name: 'Svelte',
-		category: 'library'
-	}),
-	defineSkill({
 		slug: 'fastapi',
 		color: 'green',
 		description: 'TODO',
@@ -197,6 +189,15 @@ const items = [
 		name: 'Haystack',
 		category: 'framework'
 	}),
+	defineSkill({
+		slug: 'svelte',
+		color: 'orange',
+		description: svelteMd,
+		logo: Assets.Svelte,
+		name: 'Svelte',
+		category: 'framework'
+	}),
+	
 
 	// Databases
 	defineSkill({
