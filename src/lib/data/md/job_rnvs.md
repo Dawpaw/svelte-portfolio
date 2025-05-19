@@ -1,0 +1,3 @@
+- Student Assistant for the Computer Networks and Distributed Systems lecture
+- Assisted the students with extra weekly lectures and exercises.
+- Corrected and graded the students’ assignments

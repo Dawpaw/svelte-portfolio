@@ -1,0 +1,3 @@
+- Student Assistant for the IT-Security Lecture
+- Assisted the students with extra weekly lectures and exercises.
+- Corrected and graded the students’ assignments.

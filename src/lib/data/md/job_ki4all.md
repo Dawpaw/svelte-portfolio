@@ -1,0 +1,3 @@
+- Refactored and ported an academic bug research framework to Python.
+- Added new features and build configurations using Ant and Maven.
+- Implemented EvoSuite for automatic test generation on ten Apache Projects.

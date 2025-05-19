@@ -1,0 +1,3 @@
+- Supported the development of a customized search engine as a research assistant.
+- Developed a responsive Svelte-based web interface for a research search engine.
+- Conducted consistent refactoring to improve code efficiency.
