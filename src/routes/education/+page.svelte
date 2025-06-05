@@ -15,7 +15,12 @@
 				it.location.toLowerCase().includes(search) ||
 				it.degree.toLowerCase().includes(search) ||
 				it.organization.toLowerCase().includes(search)
-		)
+		).sort((a, b) => {
+			if (a.period.to && b.period.to) {
+				return b.period.to.getTime() - a.period.to.getTime();
+			}
+			return 0;
+		})
 	);
 
 	const onSearch = (query: string) => (search = query);
