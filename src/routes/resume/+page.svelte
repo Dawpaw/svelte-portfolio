@@ -14,4 +14,8 @@
 		<Button>Download Japanese</Button>
 	</a>
 	<!-- <iframe src={ResumeData.resumeJapanese} class="h-full w-full" title={ResumeData.title}></iframe> -->
+
+	<a href={ResumeData.resumeGerman} class="mx-auto">
+		<Button>Download German</Button>
+	</a>
 </TitledPage>
