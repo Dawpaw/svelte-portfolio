@@ -30,7 +30,7 @@ const items: Array<Project> = [
 		shortDescription:
 			'Website to display Anime Endcards',
 		links: [
-			{ to: 'thttps://github.com/Dawpaw/Aniendcards', label: 'GitHub' },
+			{ to: 'https://github.com/Dawpaw/Aniendcards', label: 'GitHub' },
 		],
 		logo: Assets.Unknown,
 		name: 'Aniendcards',
