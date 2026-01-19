@@ -7,7 +7,6 @@
 	import CarouselPrevious from '$lib/components/ui/carousel/carousel-previous.svelte';
 	import Carousel from '$lib/components/ui/carousel/carousel.svelte';
 	import Icon from '$lib/components/ui/icon/icon.svelte';
-	import Ascii from '$lib/components/ui/ascii/Ascii.svelte';
 	import ResponsiveContainer from '$lib/components/ui/responsive-container/responsive-container.svelte';
 	import { Tooltip, TooltipContent, TooltipTrigger } from '$lib/components/ui/tooltip';
 	import H1 from '$lib/components/ui/typography/h1.svelte';
@@ -17,7 +16,12 @@
 	import { mode } from 'mode-watcher';
 	import { type CarouselAPI } from '$lib/components/ui/carousel/context.js';
 	import { onMount } from 'svelte';
-	import { asciiArt } from '$lib/data/ascii';
+	import { base } from '$app/paths';
+
+	import Education from '$lib/components/single_page/education.svelte';
+	import Experience from '$lib/components/single_page/experience.svelte';
+	import Projects from '$lib/components/single_page/projects.svelte';
+	import Resume from '$lib/components/single_page/resume.svelte';
 
 	let api: CarouselAPI;
 
@@ -31,11 +35,13 @@
 </script>
 
 <Title title={HomeData.title} />
-<ResponsiveContainer className="flex flex-col justify-center flex-1">
+<ResponsiveContainer className="flex flex-col justify-center flex-1 my-16">
 	<div class="flex flex-1 flex-col items-center justify-center gap-8 px-14 md:flex-row md:justify-between">
-		<div class="hidden md:block md:w-1/6 flex-shrink-0">
-			<Ascii art={HomeData.asciiArt.low} />
-		</div>
+			<img
+				src={`${base}/images/profile_picture.jpg`}
+				class="h-[250px] w-[250px] rounded-full"
+				alt="profile_picture"
+			/>
 		<div
 			class="flex flex-col items-center justify-center gap-4 text-center md:items-start md:text-left w-full md:w-1/2"
 		>
@@ -80,3 +86,14 @@
 		</div>
 	</div>
 </ResponsiveContainer>
+
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 mt-16 mx-4">
+	<!-- TODO flew box -->
+	<Education/>
+	<Experience/>
+</div>
+
+<div class="grid grid-cols-1 gap-16 my-16 mx-4">
+	<Projects/>
+	<Resume/>
+</div>

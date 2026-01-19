@@ -1,6 +1,6 @@
 const firstName = 'Daniel';
 const lastName = 'Garcia';
-const suffix = 'Best Portfolio you will ever see';
+const suffix = 'My portfolio website!';
 
 const BaseData = {
 	firstName,

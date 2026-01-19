@@ -182,14 +182,6 @@ const items = [
 		category: 'framework'
 	}),
 	defineSkill({
-		slug: 'haystack',
-		color: 'black',
-		description: 'TODO',
-		logo: Assets.Haystack,
-		name: 'Haystack',
-		category: 'framework'
-	}),
-	defineSkill({
 		slug: 'svelte',
 		color: 'orange',
 		description: svelteMd,
