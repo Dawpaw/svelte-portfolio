@@ -10,7 +10,7 @@
 <a href={link.to} target={link.newTab ? '_blank' : undefined}>
 	<Tooltip openDelay={300}>
 		<TooltipTrigger>
-			<Button size="icon" variant="outline">
+			<Button size="icon" variant="outline" class="rounded-xl">
 				<Icon icon="i-carbon-link" />
 			</Button>
 		</TooltipTrigger>

@@ -47,7 +47,11 @@ const config: Config = {
 				card: {
 					DEFAULT: "hsl(var(--card) / <alpha-value>)",
 					foreground: "hsl(var(--card-foreground) / <alpha-value>)"
-				}
+				},
+				"pallete-black": "#061E29",
+				"pallete-navy": "#1D546D",
+				"pallete-teal": "#5F9598",
+				"pallete-gray": "#F3F4F4",
 			},
 			borderRadius: {
 				lg: "var(--radius)",

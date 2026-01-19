@@ -87,7 +87,7 @@
 						<DialogClose>
 							<a href={href(item.href)} class="w-full">
 								<Button
-									class="flex w-full flex-row items-center justify-start gap-2"
+									class="flex w-full flex-row items-center justify-start gap-2 rounded-xl"
 									variant="ghost"
 								>
 									<Icon icon={item.icon} className="text-xl" />

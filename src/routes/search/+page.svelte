@@ -126,7 +126,7 @@
 					</div>
 					<div class="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 						{#each group.items as item (item.link)}
-							<FancyCard color={item.color} href={href(item.link)}>
+							<FancyCard color={item.color} href={href(item.link)} class="rounded-xl">
 								<CardContent class="flex flex-row items-center gap-4">
 									<Avatar>
 										<AvatarFallback>

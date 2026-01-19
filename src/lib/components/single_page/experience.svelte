@@ -5,8 +5,8 @@
 
     import H2 from '$lib/components/ui/typography/h2.svelte';
 </script>
-<div class="border overflow-auto">
-    <H2>{ExperienceData.title}</H2>
+<div class="py-8 px-2 bg-muted rounded-xl">
+    <H2 className="text-center w-full mb-1">{ExperienceData.title}</H2>
     <div class="flex flex-col gap-6 lg:gap-0">
         {#each ExperienceData.items as it, index (it.slug)}
             <div class={`flex ${index % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'} gap-4`}>

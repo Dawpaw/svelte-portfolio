@@ -37,6 +37,7 @@
 								bgImg={$mode === 'light' ? item.logo.light : item.logo.dark}
 								color={item.color}
 								href={href(`/skills/${item.slug}`)}
+								class="rounded-xl"
 							>
 								<CardContent>
 									<CardTitle>{item.name}</CardTitle>

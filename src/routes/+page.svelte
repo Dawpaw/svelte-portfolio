@@ -35,11 +35,11 @@
 </script>
 
 <Title title={HomeData.title} />
-<ResponsiveContainer className="flex flex-col justify-center flex-1 my-16">
+<ResponsiveContainer className="flex flex-col justify-center flex-1 my-16 py-24 bg-muted rounded-xl">
 	<div class="flex flex-1 flex-col items-center justify-center gap-8 px-14 md:flex-row md:justify-between">
 			<img
 				src={`${base}/images/profile_picture.jpg`}
-				class="h-[250px] w-[250px] rounded-full"
+				class="h-[250px] w-[250px] rounded-full ring-4 ring-primary shadow-lg"
 				alt="profile_picture"
 			/>
 		<div
@@ -52,7 +52,7 @@
 					<a href={item.href} target="_blank">
 						<Tooltip>
 							<TooltipTrigger>
-								<Button variant="outline" size="icon">
+								<Button variant="outline" size="icon" class="rounded-xl">
 									<Icon icon={item.icon} className="text-lg" />
 								</Button>
 							</TooltipTrigger>
@@ -73,7 +73,7 @@
 								alt={item.name}
 							/>
 							<a href={href(`/skills/${item.slug}`)}>
-								<Button variant="ghost">
+								<Button variant="ghost" class="rounded-xl">
 									{item.name}
 								</Button>
 							</a>
@@ -87,13 +87,13 @@
 	</div>
 </ResponsiveContainer>
 
-<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 mt-16 mx-4">
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 mt-16 mx-4 py-24 ">
 	<!-- TODO flew box -->
 	<Education/>
 	<Experience/>
 </div>
 
-<div class="grid grid-cols-1 gap-16 my-16 mx-4">
+<div class="grid grid-cols-1 gap-16 my-16 mx-4 bg-muted/40">
 	<Projects/>
 	<Resume/>
 </div>

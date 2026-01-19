@@ -35,7 +35,7 @@
 
 <FancyCard
 	color={project.color}
-	class="flex h-full flex-col"
+	class="flex h-full flex-col rounded-xl"
 	href={href(`/projects/${project.slug}`)}
 >
 	<CardHeader class="flex w-full flex-col gap-4">
@@ -60,7 +60,7 @@
 				<ButtonLink link={project.links[0]} />
 				<DropdownMenu>
 					<DropdownMenuTrigger>
-						<Button size="icon" variant="outline"
+						<Button size="icon" variant="outline" class="rounded-xl"
 							><Icon icon="i-carbon-overflow-menu-vertical" /></Button
 						>
 					</DropdownMenuTrigger>

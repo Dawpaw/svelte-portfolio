@@ -7,8 +7,8 @@
 
 </script>
 
-<div class="border">
-    <H2>{EducationData.title}</H2>
+<div class="py-8 px-2 bg-muted rounded-xl">
+    <H2 className="text-center w-full mb-1">{EducationData.title}</H2>
     <div class="flex flex-col gap-6 lg:gap-0">
                 {#each EducationData.items as it, index (it.slug)}
                     <div class={`flex ${index % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'} gap-4`}>

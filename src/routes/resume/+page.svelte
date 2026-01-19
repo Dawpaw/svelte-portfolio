@@ -6,16 +6,16 @@
 
 <TitledPage title={ResumeData.title}>
 	<a href={ResumeData.resume} class="mx-auto">
-		<Button>Download English</Button>
+		<Button class="rounded-xl">Download English</Button>
 	</a>
 	<!-- <iframe src={ResumeData.resume} class="h-full w-full" title={ResumeData.title}></iframe> -->
 
 	<a href={ResumeData.resumeJapanese} class="mx-auto">
-		<Button>Download Japanese</Button>
+		<Button class="rounded-xl">Download Japanese</Button>
 	</a>
 	<!-- <iframe src={ResumeData.resumeJapanese} class="h-full w-full" title={ResumeData.title}></iframe> -->
 
 	<a href={ResumeData.resumeGerman} class="mx-auto">
-		<Button>Download German</Button>
+		<Button class="rounded-xl">Download German</Button>
 	</a>
 </TitledPage>
