@@ -24,7 +24,7 @@ const items: Array<Education> = [
 		logo: Assets.TUClausthal,
 		name: '',
 		organization: 'Clausthal University of Technology',
-		period: { from: new Date(2023, 9, 1), to: new Date(2025, 7, 29) },
+		period: { from: new Date(2023, 9, 1), to: new Date(2026, 0, 31) },
 		shortDescription: '',
 		slug: 'master-tuc',
 		subjects: ['Knowledge Graphs', 'Large Language Models', 'Graph Databases', 'Scientific Computing', 
