@@ -1,0 +1,1 @@
+import{h as e}from"./base.BMSKcrg5.js";const s="Resumé",m=e("/pdf/resume_en.pdf"),r=e("/pdf/resume_jp.pdf"),p=e("/pdf/resume_de.pdf"),f={title:s,resume:m,resumeJapanese:r,resumeGerman:p};export{f as R};
