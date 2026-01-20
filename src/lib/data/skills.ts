@@ -211,6 +211,14 @@ const items = [
 
 	// Devtools 
 	defineSkill({
+		slug: 'git',
+		color: 'orange',
+		description: 'TODO',
+		logo: Assets.Git,
+		name: 'Git',
+		category: 'devtools'
+	}),
+	defineSkill({
 		slug: 'docker',
 		color: 'blue',
 		description: 'TODO',

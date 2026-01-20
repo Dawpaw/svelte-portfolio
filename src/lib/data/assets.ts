@@ -86,6 +86,7 @@ const Assets = {
 	Langchain: asset('langchain.svg'),
 	Haystack: asset('haystack.png'),
 	Ollama: asset('ollama.svg'),
+	Git: asset('git.svg'),
 
 };
 
