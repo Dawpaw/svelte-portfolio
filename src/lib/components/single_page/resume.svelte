@@ -14,13 +14,17 @@
         </a>
         <!-- <iframe src={ResumeData.resume} class="h-full w-full" title={ResumeData.title}></iframe> -->
     
-        <a href={ResumeData.resumeJapanese} class="mx-auto">
-            <Button class="rounded-xl">Download Japanese</Button>
-        </a>
-        <!-- <iframe src={ResumeData.resumeJapanese} class="h-full w-full" title={ResumeData.title}></iframe> -->
-    
         <a href={ResumeData.resumeGerman} class="mx-auto">
             <Button class="rounded-xl">Download German</Button>
         </a>
+
+        <a href={ResumeData.resumeJapanese} class="mx-auto">
+            <Button class="rounded-xl">Download Japanese</Button>
+        </a>
+        
+        <a href={ResumeData.cvEnglish} class="mx-auto">
+            <Button class="rounded-xl">Download CV</Button>
+        </a>
+    
     </div>
 </div>
