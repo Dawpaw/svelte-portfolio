@@ -1,1 +1,0 @@
-import{h as e}from"./base.DfJDy8bJ.js";const s="Resumé",p=e("/pdf/resume_en.pdf"),m=e("/pdf/cv_en.pdf"),n=e("/pdf/resume_jp.pdf"),r=e("/pdf/resume_de.pdf"),f={title:s,resume:p,resumeJapanese:n,resumeGerman:r,cvEnglish:m};export{f as R};
