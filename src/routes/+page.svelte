@@ -88,7 +88,6 @@
 </ResponsiveContainer>
 
 <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 mt-16 mx-4 py-24 ">
-	<!-- TODO flew box -->
 	<Education/>
 	<Experience/>
 </div>

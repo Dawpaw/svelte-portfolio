@@ -82,7 +82,7 @@ const items = [
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
-		description:'TODO',
+		description: '',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -90,7 +90,7 @@ const items = [
 	defineSkill({
 		slug: 'ts',
 		color: 'blue',
-		description: 'TODO',
+		description: '',
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
@@ -98,7 +98,7 @@ const items = [
 	defineSkill({
 		slug: 'py',
 		color: 'blue',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Python,
 		name: 'Python',
 		category: 'pro-lang'
@@ -106,7 +106,7 @@ const items = [
 	defineSkill({
 		slug: 'java',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Java,
 		name: 'Java',
 		category: 'pro-lang'
@@ -116,7 +116,7 @@ const items = [
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
-		description: 'TODO',
+		description: '',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -124,7 +124,7 @@ const items = [
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -132,7 +132,7 @@ const items = [
 	defineSkill({
 		slug: 'tailwind',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Tailwind,
 		name: 'Tailwind',
 		category: 'markup-style'
@@ -142,7 +142,7 @@ const items = [
 	defineSkill({
 		slug: 'fastapi',
 		color: 'green',
-		description: 'TODO',
+		description: '',
 		logo: Assets.FastApi,
 		name: 'FastApi',
 		category: 'library'
@@ -150,7 +150,7 @@ const items = [
 	defineSkill({
 		slug: 'django',
 		color: 'green',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Django,
 		name: 'Django',
 		category: 'library'
@@ -158,7 +158,7 @@ const items = [
 	defineSkill({
 		slug: 'flask',
 		color: 'black',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Flask,
 		name: 'Flask',
 		category: 'library'
@@ -168,7 +168,7 @@ const items = [
 	defineSkill({
 		slug: 'ollama',
 		color: 'black',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Ollama,
 		name: 'Ollama',
 		category: 'framework'
@@ -176,7 +176,7 @@ const items = [
 	defineSkill({
 		slug: 'langchain',
 		color: 'black',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Langchain,
 		name: 'LangChain',
 		category: 'framework'
@@ -195,7 +195,7 @@ const items = [
 	defineSkill({
 		slug: 'postgresql',
 		color: 'blue',
-		description: 'TODO',
+		description: '',
 		logo: Assets.PostgreSQL,
 		name: 'PostgreSQL',
 		category: 'db'
@@ -203,7 +203,7 @@ const items = [
 	defineSkill({
 		slug: 'neo4j',
 		color: 'blue',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Neo4j,
 		name: 'Neo4J',
 		category: 'db'
@@ -213,7 +213,7 @@ const items = [
 	defineSkill({
 		slug: 'git',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Git,
 		name: 'Git',
 		category: 'devtools'
@@ -221,7 +221,7 @@ const items = [
 	defineSkill({
 		slug: 'docker',
 		color: 'blue',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Docker,
 		name: 'Docker',
 		category: 'devtools'
@@ -229,7 +229,7 @@ const items = [
 	defineSkill({
 		slug: 'jupyter',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Jupyter,
 		name: 'Jupyter Notebooks',
 		category: 'devtools'
@@ -237,7 +237,7 @@ const items = [
 	defineSkill({
 		slug: 'ant',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Ant,
 		name: 'Ant',
 		category: 'devtools'
@@ -245,7 +245,7 @@ const items = [
 	defineSkill({
 		slug: 'maven',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Maven,
 		name: 'Maven',
 		category: 'devtools'
@@ -253,7 +253,7 @@ const items = [
 	defineSkill({
 		slug: 'uml',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.UML,
 		name: 'UML',
 		category: 'devtools'
@@ -263,7 +263,7 @@ const items = [
 	defineSkill({
 		slug: 'en',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.English,
 		name: 'English',
 		category: 'lang'
@@ -271,7 +271,7 @@ const items = [
 	defineSkill({
 		slug: 'es',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Spanish,
 		name: 'Spanish',
 		category: 'lang'
@@ -279,7 +279,7 @@ const items = [
 	defineSkill({
 		slug: 'jp',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.Japanese,
 		name: 'Japanese',
 		category: 'lang'
@@ -287,7 +287,7 @@ const items = [
 	defineSkill({
 		slug: 'de',
 		color: 'orange',
-		description: 'TODO',
+		description: '',
 		logo: Assets.German,
 		name: 'German',
 		category: 'lang'
